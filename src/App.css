@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.wrapper-stack {
+  border: 10px solid lightblue;
+  display: flex;
+  align-content: flex-end;
+  margin-right: 10px;
+  width: 100px;
+  padding: 10px;
+  flex-direction: column-reverse;
+  border-radius: 10px;
+}
+
+.item-stack {
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  background-color: dodgerblue;
+  color: white;
+  padding-top: 15px;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.item-stack:last-child {
+  margin-top: 0;
+}
