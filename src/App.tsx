@@ -20,7 +20,7 @@ function App() {
   }
 
 
-    const getStack =  (action: string): any => {
+    const getStack =  (): any => {
         const sizeStack = getRandomInt(8,3);
         const stack = initStack();
         const stacks  = [];
@@ -34,7 +34,7 @@ function App() {
 
     return (
     <div className="App">
-        {getStack('push')}
+        {getStack()}
     </div>
   );
 }
